@@ -53,8 +53,8 @@
                                 <th><?php echo $row['dni'] ?></th>
                                 <th><?php echo $row['nombres'] ?></th>
                                 <th><?php echo $row['apellidos'] ?></th>
-                                <th><a href=""></a></th>
-                                <th><a href=""></a></th>
+                                <th><a href="actualizar.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-info">Actualizar</a></th>
+                                <th><a href="delete.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-danger">Eliminar</a></th>
                             </tr>
                             <?php } ?>
                     </tbody>
