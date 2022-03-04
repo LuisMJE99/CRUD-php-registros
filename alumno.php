@@ -22,7 +22,7 @@
             <div class="col-md-3">
 
                 <h1>Formulario</h1>
-                <form action="incertar.php" method="POST">
+                <form action="ingresar.php" method="POST">
                     <input type="text" class="form-control mb-3" name="numero_alumno" placeholder="numero control"><br>
                     <input type="text" class="form-control mb-3" name="dni_alumno" placeholder="dni"><br>
                     <input type="text" class="form-control mb-3" name="nombre_alumno" placeholder="Nombre de alumno"><br>
