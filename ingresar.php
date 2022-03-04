@@ -13,4 +13,4 @@ if($querisql){
     header('Location:alumno.php');
 }
 
-?>
+?> 
